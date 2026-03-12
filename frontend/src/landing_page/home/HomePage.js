@@ -7,7 +7,7 @@ import Education from './Education';
 
 // import { FaUserCircle } from "react-icons/fa";
 
-// import OpenAccount from '../OpenAccount';
+import OpenAccount from '../OpenAccount';
 import Navbar from '../Navbar';
 // import Footer from '../Footer';
 const HomePage =()=>{
@@ -20,6 +20,8 @@ const HomePage =()=>{
         <Stats/>
         <Pricing/>
         <Education/>
+        <OpenAccount/>
+       
 
 
         </>
