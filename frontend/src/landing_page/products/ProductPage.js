@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Hero from './Hero';
 
 const ProductPage = () => {
   return (
     <div>
-      <h1>Product Page</h1>
+      <Hero/>
     </div>
   )
 }
