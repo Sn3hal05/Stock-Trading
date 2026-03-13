@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="container">
+    <div className="container mb-5">
       <div className="row text-center mt-5 mb-5 pb-5 pt-5 border-bottom ">
         <h1 className="fs-3 mb-5">
           We pioneered the discount broking model in India.
