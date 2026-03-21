@@ -3,6 +3,7 @@ import Hero from './Hero';
 import LeftSection from './LeftSection';
 import RightSection from './RightSection';
 import {Link} from 'react-router-dom';
+import Universe from './Universe';
 
 
 const ProductPage = () => {
@@ -40,7 +41,10 @@ const ProductPage = () => {
   productDesc="An easy to grasp, collection of stock market lessons with in-depth coverage and illustrations. Content is broken down into bite-size cards to help you learn on the go."
       />  
       <h4 className='text-center my-5'>Want to know more about our technology stack? Check out the <Link className="text-decoration-none" to="#">Zerodha.tech</Link> blog.</h4>
+
+      <Universe/>
     </div>
+
 
     
   )
