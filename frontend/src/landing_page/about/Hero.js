@@ -11,7 +11,7 @@ const Hero = () => {
         </h1>
       </div>
       <div className="row mx-auto" style={{ width: "70%", fontSize:"17px" }}>
-        <div className="col  mt-5">
+        <div className="col-12 col-lg-6  mt-5">
           <p>
             We kick-started operations on the 15th of August, 2010 with the goal
             of breaking all barriers that traders and investors face in India in
@@ -28,7 +28,7 @@ const Hero = () => {
             all Indian retail trading volumes.
           </p>
         </div>
-        <div className="col mt-5">
+        <div className="col-12 col-lg-6 mt-5">
           <p>
             In addition, we run a number of popular open online educational and
             community initiatives to empower retail traders and investors.

@@ -5,7 +5,7 @@ const Team = () => {
     <div className="container my-5">
       <h2 className="text-center">People</h2>
       <div className="row mx-auto my-5" style={{ width: "75%" }}>
-        <div className="col mt-5 text-center ">
+        <div className="col-12 col-lg-6 mt-5 text-center ">
           <img
             className="rounded-circle"
             src="../Media/images/nithinKamath.jpg"
