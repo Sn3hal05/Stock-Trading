@@ -12,7 +12,7 @@ const RightSection = ({
   return (
     <div className="container my-3" style={{width:"80%"}}>
       <div className="row align-items-center">
-        <div className="col-4 my-5">
+        <div className="col-12 col-lg-4 my-5">
           <h3>{productName}</h3>
           <p className="fs-6">{productDesc}</p>
 
@@ -32,7 +32,7 @@ const RightSection = ({
   )}
   </p>
         </div>
-        <div className="col-8 text-center">
+        <div className="col-12 col-lg-8 text-center">
           <img src={imageURL} alt="Product 1" />
         </div>
 
