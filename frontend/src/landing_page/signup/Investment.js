@@ -10,7 +10,7 @@ const Investment = () => {
         <div className="col-12 col-lg-6">
           <div className="row ">
             <div className="col-3">
-              <img src="../media/images/stocks-acop.svg" />
+              <img src={process.env.PUBLIC_URL + "/media/images/stocks-acop.svg"} />
             </div>
             <div className="col-9">
               <h4>Stocks</h4>
@@ -21,7 +21,7 @@ const Investment = () => {
         <div className="col-12 col-lg-6">
           <div className="row">
             <div className="col-3">
-              <img src="../media/images/mf-acop.svg" />
+              <img src={process.env.PUBLIC_URL + "/media/images/mf-acop.svg"} />
             </div>
             <div className="col-9">
                 <h4>Mutual funds</h4>
@@ -34,7 +34,7 @@ const Investment = () => {
         <div className="col-12 col-lg-6">
           <div className="row">
             <div className="col-3">
-              <img src="../media/images/ipo-acop.svg" />
+              <img src={process.env.PUBLIC_URL + "/media/images/ipo-acop.svg"} />
             </div>
             <div className="col-9">
                 <h4>IPO</h4>
@@ -45,7 +45,7 @@ const Investment = () => {
         <div className="col-12 col-lg-6">
           <div className="row">
             <div className="col-3">
-              <img src="../media/images/fo-acop.svg" />
+              <img src={process.env.PUBLIC_URL + "/media/images/fo-acop.svg"} />
             </div>
             <div className="col-9">
                 <h4>Futures & options</h4>

@@ -5,7 +5,7 @@ const Awards = () => {
     <div className="container mt-5">
       <div className="row">
         <div className="col-6 p-5">
-          <img src="../Media/images/largestBroker.svg" alt="broker" />
+          <img src={process.env.PUBLIC_URL + "/Media/images/largestBroker.svg"} alt="broker" />
         </div>
         <div className="col-6 p-5 mt-5">
           <h1>Largest Stock Broker In India</h1>
@@ -41,7 +41,7 @@ const Awards = () => {
               </ul>
             </div>
           </div>
-          <img src='../Media/images/pressLogos.png' alt="pressLogo" style={{width:"80%"}}/>
+          <img src={process.env.PUBLIC_URL + '/Media/images/pressLogos.png'} alt="pressLogo" style={{width:"80%"}}/>
         </div>
       </div>
     </div>

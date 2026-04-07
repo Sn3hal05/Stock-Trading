@@ -14,7 +14,7 @@ const Signup = () => {
       </div>
       <div className="row my-5">
         <div className="col-12 col-lg-6 text-center ">
-          <img src="../media/images/signup.png" style={{ width: "80%" }} />
+          <img src={process.env.PUBLIC_URL + "/media/images/signup.png"} style={{ width: "80%" }} />
         </div>
         <div className="col-12 col-lg-6 mt-3">
           <h3>Signup now</h3>

@@ -35,7 +35,7 @@ const Stats = () => {
           
         <div className="col-7 p-5">
           <img
-            src="../media/images/ecosystem.png"
+            src={process.env.PUBLIC_URL + "/media/images/ecosystem.png"}
             alt="Ecosystem"
             style={{ width: "90%" }}
           />

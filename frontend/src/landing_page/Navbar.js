@@ -13,7 +13,7 @@ const Navbar = () => {
         {/* ✅ Logo */}
         <Link className="navbar-brand" to="/">
           <img
-            src="../media/images/logo.svg"
+            src={process.env.PUBLIC_URL + "/media/images/logo.svg"}
             style={{ width: "25%" }}
             alt="logo"
           />

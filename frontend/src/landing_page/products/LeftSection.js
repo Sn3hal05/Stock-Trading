@@ -38,14 +38,14 @@ const LeftSection = ({
           <div className="row mt-4">
             <div className="col">
               <img
-                src="../media/images/googleplayBadge.svg"
+                src={process.env.PUBLIC_URL + "/media/images/googleplayBadge.svg"}
                 alt="Product 1"
                 style={{ width: "150px" }}
               />
             </div>
             <div className="col">
               <img
-                src="../media/images/appstoreBadge.svg"
+                src={process.env.PUBLIC_URL + "/media/images/appstoreBadge.svg"}
                 alt="Product 1"
                 style={{ width: "140px" }}
               />

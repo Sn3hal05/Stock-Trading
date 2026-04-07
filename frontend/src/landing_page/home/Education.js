@@ -6,7 +6,7 @@ const Education = () => {
     <div className="container mt-5 ">
       <div className="row">
         <div className="col-6">
-          <img src='../Media/images/education.svg' alt='education' style={{width:'70%'}}/>
+          <img src={process.env.PUBLIC_URL + '/Media/images/education.svg'} alt='education' style={{width:'70%'}}/>
         </div>
         <div className="col-6 mt-5 p-5">
           <h1 className='fs-2 mb-3'>Free and open market education</h1>

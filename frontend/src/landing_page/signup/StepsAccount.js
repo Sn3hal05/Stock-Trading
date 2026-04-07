@@ -17,7 +17,7 @@ const StepsAccount = () => {
                         {/* Image Section */}
                         <div className='col-12 col-lg-6 pe-lg-5 mb-4 mb-lg-0'>
                             <img 
-                                src='../media/images/steps-acop.svg' 
+                                src={process.env.PUBLIC_URL + '/media/images/steps-acop.svg'} 
                                 className="img-fluid" 
                                 alt="Steps to open account"
                             />
@@ -52,7 +52,7 @@ const StepsAccount = () => {
                 <div className='row'>
                     <div className='col-7 text-center'>
                         <img
-                        src="../media/images/acop-benefits.svg"
+                        src={process.env.PUBLIC_URL + "/media/images/acop-benefits.svg"}
                         alt="Account benefits"
                         className='img-fluid w-75'
                         />

@@ -8,7 +8,7 @@ const Team = () => {
         <div className="col-12 col-lg-6 mt-5 text-center ">
           <img
             className="rounded-circle"
-            src="../Media/images/nithinKamath.jpg"
+            src={process.env.PUBLIC_URL + "/Media/images/nithinKamath.jpg"}
             alt="Nithin"
             style={{ width: "65%" }}
           />
